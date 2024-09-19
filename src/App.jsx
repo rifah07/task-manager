@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import TaskInput from "./TaskTnput";
+import TaskInput from "./TaskInput";
 import TaskList from "./TaskList";
 
 function App() {

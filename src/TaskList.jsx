@@ -2,11 +2,11 @@ function TaskList(props) {
   return (
     <ul>
       {props.tasks.length === 0 ? (
-        <p>No Tasks</p>
+        <p className="NoTask">No Tasks</p>
       ) : (
         props.tasks.map((task, index) => {
           return(
-            <li key={index}style={{textDecoration : task.completed? 'line-through':'none'}} >
+            <li className="showTask" key={index}style={{textDecoration : task.completed? 'line-through':'none'}} >
               <input
                 type="checkbox"
                 checked={task.completed}

@@ -1,6 +1,6 @@
 function TaskInput(props) {
   return (
-    <div>
+    <div className="taskInput">
       <input
         type="text"
         value={props.newTask}

@@ -1,14 +1,24 @@
+body{
+  background-color: rgb(49, 1, 73);
+}
+
+
 .App {
- max-width: 600px;
+ max-width: 50%;
  margin: 0 auto;
  padding: 20px;
- background: whitesmoke;
+ background: rgb(86, 6, 126);
  border-radius: 10 px;
  box-shadow: 0 4 8px rgba(0,0,0, 0.1);
+
+}
+.NoTask{
+  color: rgb(251, 240, 255);
+
 }
 
 h1{
-  color: #333;
+  color: rgb(252, 246, 255);
   text-align: center;
 }
 
@@ -26,12 +36,16 @@ button{
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  color: #fff ;
-  background-color: blue;
+  color: #f9faff ;
+  background-color: rgb(166, 24, 209);
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 button:hover{
-  background-color: blueviolet;
+  background-color: rgb(241, 230, 252);
+  font-size: 18px;
+  color: rgb(112, 17, 160);
+  
 }
 
 li button{
@@ -40,20 +54,28 @@ li button{
 
 li button:hover{
   background-color: rosybrown;
+  color: black;
 }
 
 li{
+  margin-top: 16px;
   display: flex;
   align-items: center ;
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #faf6ff;
   margin-bottom: 10px;
   box-shadow: 0 2 4px rgba(0,0,0, 0.1);
 }
 
 input [type="text"]{
-  width: 70%;
+  width: 90%;
   padding: 12px;
-}
+  } 
+
+.showTask:hover{
+   background-color:  rgb(115, 6, 170);
+   color:#f9faff;
+   font-size: 20px;
+  }
