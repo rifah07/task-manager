@@ -6,7 +6,7 @@ function TaskList(props) {
       ) : (
         props.tasks.map((task, index) => {
           return(
-            <li key={index}>
+            <li key={index}style={{textDecoration : task.completed? 'line-through':'none'}} >
               <input
                 type="checkbox"
                 checked={task.completed}
