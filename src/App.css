@@ -2,7 +2,6 @@ body{
   background-color: rgb(49, 1, 73);
 }
 
-
 .App {
  max-width: 50%;
  margin: 0 auto;
@@ -30,10 +29,10 @@ ul{
 }
 
 button{
-  padding: 12px 20px;
+  padding: 14px 30px;
   font-size: 16px;
   border: none;
-  margin-left: 10px;
+  margin-left: 0px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -44,7 +43,6 @@ button{
 
 button:hover{
   background-color: rgb(241, 230, 252);
-  font-size: 18px;
   color: rgb(112, 17, 160);
   
 }
@@ -70,9 +68,10 @@ li{
   box-shadow: 0 2 4px rgba(0,0,0, 0.1);
 }
 
-input [type="text"]{
-  width: 90%;
+input[type="text"]{
+  width: 82%;
   padding: 12px;
+  margin-right: 12px;
   } 
 
 .showTask:hover{
