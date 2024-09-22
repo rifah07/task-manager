@@ -90,14 +90,16 @@ input[type="text"]{
 
   @media only screen and (min-width: 600px){
 
+
+    .App {
+      max-width: 60%;     
+     }
+
     button{
       padding: 10px 24px;
       font-size: 14px;      
       margin-top: 2%;
-      border-radius: 5px;
-
     }
-
 
     li button{
       margin-left: 1%;
