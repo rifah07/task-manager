@@ -91,7 +91,7 @@ input[type="text"]{
   @media only screen and (max-width:721px){
 
     .App{
-      max-width: 60%;
+      max-width: 70%;
     }
 
     button{
@@ -112,7 +112,8 @@ input[type="text"]{
 
     li button{
       margin-left: 2%;
-      padding: 8px 18px;
+      padding: 8px 16px;
+      font-size: 14px;
     }
    
     
