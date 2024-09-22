@@ -6,6 +6,7 @@ body{
   background-color: rgb(49, 1, 73);
 }
 
+
 .App {
  max-width: 54%;
  margin: auto;
@@ -91,13 +92,45 @@ input[type="text"]{
   }
 
 
+  @media only screen and (max-width:600px){
+
+    .App{
+      max-width: 88%;
+    }
+
+    input[type="text"]{
+      min-width: 100%;
+      margin-top: 2%;
+      } 
+
+    button{
+      padding: 10px 22px;
+      font-size: 13px;      
+      margin-top: 2%;
+    }
+
+
+    .showTask{
+      font-size: 13px;
+      max-height: 800px;
+    }
+    
+    .showTask:hover{      
+      font-size: 14px;
+     }
+
+    li button{
+      margin-left: 2%;
+      padding: 8px 14px;
+      font-size: 13px;
+    }
+
+  }
+
   @media only screen and (max-width:721px){
 
     .App{
-      margin-top: 2%;
       max-width: 82%;
-      border-radius: 5px;
-      margin-bottom: 2%;
     }
 
     input[type="text"]{
@@ -129,3 +162,154 @@ input[type="text"]{
    
     
   }
+
+
+
+  @media only screen and (max-width:1200px){
+
+    .App{
+      max-width: 84%;
+    }
+
+    input[type="text"]{
+      min-width: 100%;
+      margin-top: 2%;
+      } 
+
+    button{
+      padding: 12px 26px;
+      font-size: 16px;    
+      margin-top: 2%;  
+    }
+
+
+    .showTask{
+      font-size: 16px;
+      max-height: 600px;
+    }
+    
+    .showTask:hover{      
+      font-size: 18px;
+     }
+
+    li button{
+      margin-left: 2%;
+      padding: 10px 18px;
+      font-size: 16px;
+    }
+    
+  }
+
+
+
+  @media only screen and (max-width:1759px){
+
+    .App{
+      max-width: 84%;
+    }
+
+    input[type="text"]{
+      min-width: 80%;
+      margin-top: 2%;
+      } 
+
+    button{
+      padding: 12px 24px;
+      font-size: 16px;    
+    }
+
+
+  }
+
+  @media only screen and (max-width:1730px){
+
+    .App{
+      max-width: 60%;
+    }
+
+    input[type="text"]{
+      width: 85.5%;
+      margin-top: 2%;
+      margin-right: 2%;
+      } 
+
+    button{
+      padding: 13px 28px;
+      font-size: 16px;      
+    }
+
+    
+  }
+
+
+  @media only screen and (max-width:1689px){
+
+    input[type="text"]{
+      width: 83%;
+      margin-top: 2%;
+      margin-right: 4%;
+      } 
+
+    button{
+      padding: 13px 28px;
+      font-size: 16px;      
+    }
+
+
+    .showTask{
+      font-size: 16px;
+      max-height: 600px;
+    }
+    
+    .showTask:hover{      
+      font-size: 18px;
+     }
+
+    li button{
+      margin-left: 2%;
+      padding: 10px 18px;
+      font-size: 16px;
+    }
+    
+  }
+
+  @media only screen and (max-width:1624px){
+
+    input[type="text"]{
+      width: 84%;
+   
+      } 
+
+    button{
+      padding: 13px 32px;
+    }
+    
+  }
+
+
+  @media only screen and (max-width:1609px){
+
+    input[type="text"]{
+      width: 83.5%;
+    }
+
+    button{
+      padding: 13px 32px;
+    }
+
+  }
+
+
+  @media only screen and (max-width:1555px){
+
+    input[type="text"]{
+      width: 83%;
+     
+      } 
+
+    button{
+      padding: 13px 32px;
+    }
+    
+  }
+
