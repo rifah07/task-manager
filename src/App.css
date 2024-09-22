@@ -104,6 +104,7 @@ input[type="text"]{
     .showTask{
       font-size: 16px;
       display: block;
+      max-height: max-content;
     }
     
     .showTask:hover{      
