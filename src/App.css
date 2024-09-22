@@ -8,11 +8,14 @@ body{
 
 .App {
  max-width: 54%;
- margin: 0 auto;
+ margin: auto;
  padding: 20px;
  background: rgb(86, 6, 126);
  border-radius: 10 px;
  box-shadow: 0 4 8px rgba(0,0,0, 0.1);
+ margin-top: 2%;
+ border-radius: 5px;
+ margin-bottom: 2%;
 
 }
 
