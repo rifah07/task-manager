@@ -3,7 +3,7 @@ body{
 }
 
 .App {
- max-width: 50%;
+ max-width: 60%;
  margin: 0 auto;
  padding: 20px;
  background: rgb(86, 6, 126);
@@ -78,5 +78,5 @@ input[type="text"]{
 .showTask:hover{
    background-color:  rgb(115, 6, 170);
    color:#f9faff;
-   font-size: 20px;
+   font-size: 19px;
   }
