@@ -91,7 +91,10 @@ input[type="text"]{
   @media only screen and (max-width:721px){
 
     .App{
+      margin-top: 2%;
       max-width: 82%;
+      border-radius: 5px;
+      margin-bottom: 2%;
     }
 
     input[type="text"]{
