@@ -103,7 +103,6 @@ input[type="text"]{
 
     .showTask{
       font-size: 14px;
-      display: block;
       max-height: 600px;
     }
     
