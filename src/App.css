@@ -94,6 +94,10 @@ input[type="text"]{
       max-width: 82%;
     }
 
+    input[type="text"]{
+      width: 100%;
+      } 
+
     button{
       padding: 10px 24px;
       font-size: 14px;      
