@@ -90,6 +90,10 @@ input[type="text"]{
 
   @media only screen and (max-width:721px){
 
+    .App{
+      max-width: 60%;
+    }
+
     button{
       padding: 10px 24px;
       font-size: 14px;      
