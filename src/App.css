@@ -49,6 +49,7 @@ button:hover{
 
 li button{
   background-color: red;
+  margin-left: 2%;
 }
 
 li button:hover{
