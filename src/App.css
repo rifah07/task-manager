@@ -92,7 +92,7 @@ input[type="text"]{
 
 
     .App {
-      width: 66%;     
+      max-width: 64%;     
      }
 
     button{
