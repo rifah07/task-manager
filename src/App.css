@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
   background-color: rgb(49, 1, 73);
 }
 
 .App {
- max-width: 60%;
+ max-width: 54%;
  margin: 0 auto;
  padding: 20px;
  background: rgb(86, 6, 126);
@@ -29,10 +33,10 @@ ul{
 }
 
 button{
-  padding: 14px 30px;
+  padding: 14px 34px;
   font-size: 16px;
   border: none;
-  margin-left: 0px;
+  margin-left: 0;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -72,7 +76,7 @@ li{
 }
 
 input[type="text"]{
-  width: 82%;
+  width: 84%;
   padding: 12px;
   margin-right: 12px;
   } 
@@ -81,4 +85,25 @@ input[type="text"]{
    background-color:  rgb(115, 6, 170);
    color:#f9faff;
    font-size: 19px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+
+    li button{
+      margin-left: 1%;
+      padding: 10px 20px;
+      position: relative;
+    }
+
+    .showTask{
+      font-size: 16PX;
+    }
+    
+    .showTask:hover{      
+      font-size: 18px;
+     }
+   
+    
   }
